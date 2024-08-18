@@ -68,7 +68,7 @@ main_menu.pack()
 
 # Button to enter the password strength tester
 enter_button = tk.Button(main_menu, text="Enter Strength Tester", command=open_password_tester)
-enter_button.pack(pady=10)
+enter_button.pack(pady=160)
 
 # Password strength tester frame
 password_tester_frame = tk.Frame(root)
